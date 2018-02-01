@@ -1,0 +1,26 @@
+{
+    "name": "minizinc",
+    "displayName": "MiniZinc",
+    "description": "Language Support for the MiniZinc modelling language",
+    "version": "0.0.1",
+    "publisher": "dekkerone",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "minizinc",
+            "aliases": ["MiniZinc", "minizinc"],
+            "extensions": [".mzn",".fzn",".dzn"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "minizinc",
+            "scopeName": "source.mzn",
+            "path": "./syntaxes/minizinc.tmLanguage.json"
+        }]
+    }
+}
