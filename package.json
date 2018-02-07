@@ -20,7 +20,7 @@
         "grammars": [{
             "language": "minizinc",
             "scopeName": "source.mzn",
-            "path": "./syntaxes/minizinc.tmLanguage.json"
+            "path": "./syntaxes/minizinc.tmLanguage"
         }]
     }
 }
