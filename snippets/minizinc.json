@@ -9,10 +9,20 @@
         "body": "forall(${1:i in ${2:N}) ($3)",
         "description": "For all predicate"
     },
+    "Function": {
+        "prefix": "func",
+        "body": "function $3: ${1:foo}($2) = ${4:true};",
+        "description": "Function definition"
+    },
     "Globals": {
         "prefix": "glob",
         "body": "import \"globals.mzn\";",
         "description": "Import global constraints"
+    },
+    "Predicate": {
+        "prefix": "pred",
+        "body": "predicate ${1:foo}($2) = ${3:true};",
+        "description": "Predicate definition"
     },
     "Solve Satisfy": {
         "prefix": "sat",
