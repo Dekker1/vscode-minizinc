@@ -1,7 +1,7 @@
 # Change Log
-All notable changes to the "minizinc" extension will be documented in this file.
+All notable changes to the MiniZinc Visual Studio Code extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
-- Initial release
+- Initial release includes syntax highlighting and snippets
