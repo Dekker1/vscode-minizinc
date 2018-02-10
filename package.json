@@ -11,16 +11,22 @@
         "Languages"
     ],
     "contributes": {
+        "grammars": [{
+            "language": "minizinc",
+            "scopeName": "source.mzn",
+            "path": "./syntaxes/minizinc.tmLanguage"
+        }],
         "languages": [{
             "id": "minizinc",
             "aliases": ["MiniZinc", "minizinc"],
             "extensions": [".mzn",".fzn",".dzn"],
             "configuration": "./language-configuration.json"
         }],
-        "grammars": [{
-            "language": "minizinc",
-            "scopeName": "source.mzn",
-            "path": "./syntaxes/minizinc.tmLanguage"
-        }]
+        "snippets": [
+            {
+                "language": "minizinc",
+                "path": "./snippets/minizinc.json"
+            }
+        ]
     }
 }
