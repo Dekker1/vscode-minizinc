@@ -279,7 +279,7 @@
         </dict>
         <dict>
           <key>match</key>
-          <string>(\b(?:ann|annotation|any|constraint|function|in|include|list|op|output|minimize|maximize|predicate|record|satisfy|solve|test|type)\b)</string>
+          <string>(\b(?:annotation|constraint|function|include|op|output|minimize|maximize|predicate|satisfy|solve|test|type)\b)</string>
           <key>captures</key>
           <dict>
             <key>1</key>
@@ -293,7 +293,7 @@
         </dict>
         <dict>
           <key>match</key>
-          <string>(\b(?:array|set|bool|enum|float|int|of|par|string|tuple|var)\b)</string>
+          <string>(\b(?:ann|array|bool|enum|float|int|list|of|par|set|string|tuple|var)\b)</string>
           <key>captures</key>
           <dict>
             <key>1</key>
@@ -307,7 +307,7 @@
         </dict>
         <dict>
           <key>match</key>
-          <string>(\b(?:for|forall|if|then|elseif|else|endif|where)\b)</string>
+          <string>(\b(?:for|forall|if|then|elseif|else|endif|where|let|in)\b)</string>
           <key>captures</key>
           <dict>
             <key>1</key>
@@ -318,6 +318,20 @@
           </dict>
           <key>comment</key>
           <string>expression keyword</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>(\b(?:any|case|op|record)\b)</string>
+          <key>captures</key>
+          <dict>
+            <key>1</key>
+            <dict>
+              <key>name</key>
+              <string>invalid.illegal.mzn</string>
+            </dict>
+          </dict>
+          <key>comment</key>
+          <string>reserved identifiers</string>
         </dict>
         <dict>
           <key>match</key>
