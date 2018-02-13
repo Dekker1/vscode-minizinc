@@ -6,7 +6,7 @@
     },
     "Forall": {
         "prefix": "for",
-        "body": "forall(${1:i in ${2:N}) ($3)",
+        "body": "forall(${1:i in ${2:N}}) ($3)",
         "description": "For all predicate"
     },
     "Function": {
