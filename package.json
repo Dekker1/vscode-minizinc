@@ -3,13 +3,23 @@
     "displayName": "MiniZinc",
     "description": "Language Support for the MiniZinc modelling language",
     "version": "0.0.1",
+    "author": "Jip J. Dekker",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dekker1/vscode-minizinc.git"
+    },
+	"bugs": {
+        "url": "https://github.com/Dekker1/vscode-minizinc/issues"
+    },
     "publisher": "dekkerone",
+    "icon": "minizinc_icon.png",
+    "categories": [
+        "Languages",
+        "Linters"
+    ],
     "engines": {
         "vscode": "^1.19.0"
     },
-    "categories": [
-        "Languages"
-    ],
     "contributes": {
         "grammars": [{
             "language": "minizinc",
