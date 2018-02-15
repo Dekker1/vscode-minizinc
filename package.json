@@ -2,7 +2,7 @@
     "name": "minizinc",
     "displayName": "MiniZinc",
     "description": "Language Support for the MiniZinc modelling language",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": "Jip J. Dekker",
     "repository": {
         "type": "git",
@@ -11,7 +11,7 @@
 	"bugs": {
         "url": "https://github.com/Dekker1/vscode-minizinc/issues"
     },
-    "publisher": "dekkerone",
+    "publisher": "DekkerOne",
     "icon": "minizinc_icon.png",
     "categories": [
         "Languages",
