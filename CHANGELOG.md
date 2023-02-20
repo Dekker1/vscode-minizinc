@@ -5,6 +5,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.1] – 20/2/2023
+
 - Update the syntax definition to match MiniZinc version 2.7.
 
 ## [0.1.0] – 15/2/2018
